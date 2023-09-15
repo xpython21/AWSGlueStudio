@@ -40,3 +40,7 @@ sink = glueContext.getSink(connection_type="s3", path=output_dir,
 sink.setFormat("glueparquet")
 sink.setCatalogInfo(catalogDatabase="infractions", catalogTableName="new_ticket_clean")
 sink.writeFrame(dyF_clean)
+
+
+
+### https://docs.aws.amazon.com/glue/latest/dg/update-from-job.html
