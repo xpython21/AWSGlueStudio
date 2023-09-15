@@ -44,3 +44,4 @@ sink.writeFrame(dyF_clean)
 
 
 ### https://docs.aws.amazon.com/glue/latest/dg/update-from-job.html
+### https://docs.aws.amazon.com/glue/latest/dg/aws-glue-api-crawler-pyspark-extensions-dynamic-frame-writer.html#aws-glue-api-crawler-pyspark-extensions-dynamic-frame-writer-from_catalog
